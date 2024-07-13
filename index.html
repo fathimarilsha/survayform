@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-image: url('survey.jpeg');">
+    
+    <center><header id="title"><h1>SURVEY FORM</h1></header></center>
+
+    <center>
+    <div class="container">
+        <form action="success.html" method="" enctype="">
+            <center>
+            <p>let us know how we can improve</p>
+    
+            <table>
+            
+            <tr>
+                <td> <label>Name:</label></td>
+                <td><input type="text" name="Name" placeholder="Enter the Name" required><br><br></td>
+            </tr>
+            <tr>
+               <td> <label>Email:</label></td>
+                <td><input type="email" name="Email" placeholder="Enter your Email" required><br><br></td>
+            </tr>
+            <tr>
+                <td><label>Age:</label></td>
+                <td><input type="number" name="Age" placeholder="Age" required><br><br></td>
+            </tr>
+            <tr>
+                <td><label for="file"></label></td>
+                <td><input type="file" name="" value=""><br><br></td>
+            </tr>
+                <tr>
+                    <td><label>Which option best describes your current role?</label></td>
+                    <td><select>
+                        <option>student</option>
+                        <option>job holder</option>
+                        <option>salesman</option>
+                    </select><br><br> </td>
+                </tr>
+                <tr>
+                    <td><label>How likely is that you would recommended this program to a friend?</label></td>
+                    <td><input type="radio" name="suggest" value="definitely"><label>Definitely</label><br>
+                        <input type="radio" name="suggest" value="maybe"><label>Maybe</label><br>
+                        <input type="radio" name="suggest" value="not sure"><label>Not sure</label><br><br></td>
+                </tr>
+                <tr>
+                    <td>What do you like most here:</td>
+                    <td><select>
+                        <option>Select an option</option>
+                        <option>Teachers</option>
+                        <option>curriculum</option>
+                        <option>projects</option>
+                    </select><br><br></td>
+                </tr><br>
+                <tr>
+                    <td>Things that should be improved in the future(check all that apply):</td>
+                    <td>
+                        <input type="checkbox" id="frontend" name="improve" value="frontend">
+                        <label for="frontend">Front-end Projects</label><br>  
+                        <input type="checkbox" id="backend" name="improve" value="backend">
+                        <label for="backend">Back-end Projects</label><br>
+                        <input type="checkbox" id="dataviz" name="improve" value="dataviz"> 
+                        <label for="dataviz">Data Visualization</label><br><br>            
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="Comments">Any Comments or Suggestions?</label></td>
+                    <td><textarea name="Comments" id="Comments" placeholder="Enter your comment here....." rows="4" cols="40"></textarea><br><br>
+                        
+                    <input type="submit" value="submit">
+                
+            </center>
+        </form>
+    </div>
+</center>
+</table>
+</body>
+</html>
